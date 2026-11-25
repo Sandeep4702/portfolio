@@ -20,7 +20,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Frontend Developer and aspiring Full Stack Developer 🚀. I enjoy building responsive and user-friendly web applications using HTML, CSS, JavaScript and React.js. I also have knowledge of Python, SQL and Excel, and I'm continuously improving my development skills."
   ),
- resumeLink: "/Sandeep_V_Resume.pdf",
+  resumeLink: "/Sandeep_V_Resume.pdf",
   displayGreeting: true
 };
 
@@ -40,7 +40,9 @@ const skillsSection = {
   skills: [
     emoji("⚡ Build responsive and user-friendly web interfaces."),
     emoji("⚡ Develop interactive frontend applications using React.js."),
-    emoji("⚡ Work with Python and SQL for programming and database operations."),
+    emoji(
+      "⚡ Work with Python and SQL for programming and database operations."
+    ),
     emoji("⚡ Analyze and organize data using Microsoft Excel.")
   ],
 
@@ -89,9 +91,7 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Information Technology",
       duration: "2022 - 2026",
       desc: "Graduated with a CGPA of 8.47.",
-      descBullets: [
-        "Studied Information Technology and Software Development."
-      ]
+      descBullets: ["Studied Information Technology and Software Development."]
     }
   ]
 };
@@ -196,7 +196,8 @@ const resumeSection = {
 // Contact
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "I'm open to entry-level opportunities and exciting projects. Feel free to connect with me.",
+  subtitle:
+    "I'm open to entry-level opportunities and exciting projects. Feel free to connect with me.",
   number: "+91 9943007833",
   email_address: "vsandeep4747@gmail.com"
 };
